@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    background-color: rgb(128, 128, 128);
+    width: 25rem;
+    height: 25rem;
+    opacity: 0.8;
+    margin: 2rem;
+}
+
+.acilir_menu {
+    width: 30%;
+    height: 25rem;
+    float: left;
+    background-color: orange;
+}
+
+
+.büyüktür {
+    background-color: peru;
+    height: 4rem;
+
+}
+
+.span_1 {
+    background-color: peru;
+    font-size: 3rem;
+    margin-left: 1rem;
+
+}
+
+.menu {
+
+    color: white;
+
+    margin-right: 3rem;
+
+}
+
+.menu_1 {
+    text-align: end;
+    background-color: peru;
+
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    margin: 2rem 2rem;
+
+}
+
+.acilir_menu .menu_1,
+ul {
+    display: none;
+
+}
+
+.acilir_menu:hover .menu_1 {
+    display: block;
+}
+
+.acilir_menu:hover ul {
+    display: block;
+}
+
+.acilir_menu:hover .büyüktür {
+    display: none;
+
+}
+
+.acilir_menu:hover {
+    width: 75%;
+    transition: width 0.7s linear;
+}
+
+.acilir_menu:hover .menu_1 {
+    height: 4rem;
+    padding-top: 1rem;
+}
+
+.fa-solid {
+    padding: 1rem;
+}
